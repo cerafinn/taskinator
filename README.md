@@ -19,7 +19,7 @@ The website is a Kanban Board that allows for new task creation, deletion, editi
 https://cerafinn.github.io/
 
 ## Screenshot
-![Portfolio](./assets/images/cerafinn.github.io.png)
+![taskinator](./assets/images/taskinator.png)
 
 ## Contribution
 Created with ❤️ by Andaleeb Farooq
