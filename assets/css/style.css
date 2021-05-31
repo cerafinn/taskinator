@@ -33,8 +33,7 @@ header p {
   font-size: 2rem;
 }
 
-p,
-li {
+p, li {
   font-size: 1.6rem;
 }
 
@@ -129,8 +128,7 @@ footer {
   justify-content: space-between;
 }
 
-.task-actions button,
-.task-actions select {
+.task-actions button, .task-actions select {
   flex: 1;
 }
 
@@ -151,13 +149,13 @@ footer {
   box-shadow: 0 2px var(--grey);
   top: -2px;
 }
+
 .btn:active {
   box-shadow: 0 0px var(--grey);
   top: 0;
 }
 
-.edit-btn,
-.delete-btn {
+.edit-btn, .delete-btn {
   font-size: 1.4rem;
   padding: 5px 7px;
   margin: 3px;
@@ -165,8 +163,7 @@ footer {
   color: #fff;
 }
 
-.select-dropdown,
-.select-status {
+.select-dropdown, .select-status {
   display: block;
   font-size: 2.2rem;
   color: #444;
@@ -192,26 +189,23 @@ footer {
   width: auto;
 }
 
-.select-dropdown::-ms-expand,
-.select-status::-ms-expand {
+.select-dropdown::-ms-expand, .select-status::-ms-expand {
   display: none;
 }
 
-.select-dropdown:hover,
-.select-status:hover {
+.select-dropdown:hover, .select-status:hover {
   border-color: #888;
 }
 
-.select-dropdown:focus,
-.select-status:focus {
+.select-dropdown:focus, .select-status:focus {
   border-color: #aaa;
   box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
   box-shadow: 0 0 0 3px -moz-mac-focusring;
   color: #222;
   outline: none;
 }
-.select-dropdown option,
-.select-status option {
+
+.select-dropdown option, .select-status option {
   font-weight: normal;
   font-size: 2rem;
 }
@@ -228,5 +222,4 @@ footer {
   .task-list-wrapper {
     flex-basis: 100%;
   }
-
 }
